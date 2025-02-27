@@ -18,9 +18,7 @@ const RootLayout = () => {
             <img src="/logo.png" alt="" />
             <span>LAMA AI</span>
           </Link>
-          <div className="user"><SignedOut>
-        <SignInButton />
-      </SignedOut>
+          <div className="user">
       <SignedIn>
         <UserButton />
       </SignedIn>
