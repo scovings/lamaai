@@ -13,10 +13,9 @@
       display: flex;
       align-items: center;
       font-weight: bold;
-      gap: 2px;
 
       img{
-        width: 32px;
+        width: 220px;
         height: 32px;
       }
     }

@@ -15,8 +15,7 @@ const RootLayout = () => {
       <div className="rootLayout">
         <header>
           <Link to="/" className="logo">
-            <img src="/logo.png" alt="" />
-            <span>XENOS</span>
+            <img src="/logo2.png" alt="" />
           </Link>
           <div className="user">
       <SignedIn>
