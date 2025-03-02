@@ -5,6 +5,7 @@
       "name": "aichatstarter",
       "dependencies": {
         "@clerk/clerk-react": "^5.24.0",
+        "imagekitio-react": "^4.2.0",
         "react": "19.0.0-rc-8b08e99e-20240713",
         "react-dom": "19.0.0-rc-8b08e99e-20240713",
         "react-router-dom": "^7.2.0",
@@ -394,6 +395,10 @@
     "hasown": ["hasown@2.0.2", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="],
 
     "ignore": ["ignore@5.3.1", "", {}, "sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw=="],
+
+    "imagekit-javascript": ["imagekit-javascript@3.0.2", "", {}, "sha512-lTlLBrb+96eDy20zz3AIZtSs4nhozoa+kRcz3Yhl/TLAvciMmKXQe2kFOWM/j8KurvG5jLeDuMI6sCp+w7y2IA=="],
+
+    "imagekitio-react": ["imagekitio-react@4.2.0", "", { "dependencies": { "imagekit-javascript": "^3.0.2", "prop-types": "^15.7.2" }, "peerDependencies": { "react": "^16.13.1 || ^17.0.0 || ^18.0.0", "react-dom": "^16.13.1 || ^17.0.0 || ^18.0.0" } }, "sha512-g6aBeOPXnU7WNjCAKx82tevSKKWoKlg8xS+BITOZn+Mk2MoyDbj8jLbyP5aiMCtMWzduabgf72wPcMaeEq++lw=="],
 
     "import-fresh": ["import-fresh@3.3.0", "", { "dependencies": { "parent-module": "^1.0.0", "resolve-from": "^4.0.0" } }, "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw=="],
 
