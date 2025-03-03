@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# CLERK KEY
-.env
+# PRIVATE KEYS
+/client/.env
+/backend/.env
